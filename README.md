@@ -12,9 +12,24 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo
 
 **NOTE**: This list is only for as-a-Service offerings, not for self-hosted software. To be eligible, a service must offer a free tier, not just a free trial. The free tier must be for at least a year if it is time-bucketed. We also consider the free tier from a security perspective, so SSO is fine, but I will not accept services that restrict TLS to paid-only tiers.
 
+## About This Standalone Edition
+
+- **Main repository:** [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+- **Based on version:** upstream commit `7b6b99725015d0e648d987679ddf1d650b157a7c` (snapshotted 2026-10-20; upstream HEAD dated 2026-10-20)
+- **This edition:** v1.1.0 (v1.0.0 = clean baseline of the upstream version above)
+- **What was done:** Converted from a fork into a standalone repository (fresh history, baseline commit), then enhanced in place by Syed Mujtaba Abbas.
+- **Enhancements in this edition (v1.1.0):**
+  - This About section, with full upstream credit and version provenance
+  - `ENHANCEMENTS.md` — per-version changelog of everything changed in this edition
+  - .github/dependabot.yml — weekly GitHub Actions dependency updates
+  - `.markdownlint.json` + `.github/workflows/markdown-check.yml` — markdown linting automation for the list (upstream ships no workflows; this is its first)
+  - .editorconfig — standard editor settings (UTF-8, LF, 2-space indent)
+- **Credit & licence:** All original work belongs to ripienaar and the 1600+ upstream contributors. There is NO licence file and no licence statement anywhere in the upstream tree — that absence is preserved and flagged (see ENHANCEMENTS.md); this standalone preparation should not be published until a licence position is confirmed. This edition adds the enhancements listed above only.
+
 # Table of Contents
 
 
+  * [About This Standalone Edition](#about-this-standalone-edition)
   * [Major Cloud Providers' Always-Free Limits](#major-cloud-providers)
   * [Cloud management solutions](#cloud-management-solutions)
   * [Analytics, Events, and Statistics](#analytics-events-and-statistics)
